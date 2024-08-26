@@ -23,4 +23,4 @@ stages:
         dockerfile: '$(Build.SourcesDirectory)/webapp/Dockerfile'
         tags: |
           $(tag)
-        containerRegistry: 'DockerHub7'  # Reference to the Docker service connection
+        containerRegistry: 'DockerHub'  # Reference to the Docker service connection
